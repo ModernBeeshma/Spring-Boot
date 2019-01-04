@@ -1,12 +1,6 @@
-@value() is used to refer a variable from properties file or used in spring expression language.
-          If $ it represent property variable if # it is expression language.
-          It is work only on web based spring project and ll not work on simple spring class project.(Not sure experience from work).
-          In our project we refered a property varible using @value. for this no need of $. it is optional.
-          The value of welcom.hello is stored in hi.
-@RequestMapping()     It is used to refer a specific link from a http://localhost:8080/(myMapValue) call.
-                      The default requestmethod is get.
-                      att: method=RequestMethod.(myMethod)
-                      att: value="/(myLine)"
-@RequestBody()        It is used to get the entire body(json entity) of the post from postman and store it as model object.
-@PathVariable()        It get the link value from the URI, but "the URI variable(mylink/{uriVabiableName}) and pathvariable must have same name".
-                      
+Spring boot is auto configurable framework.
+STS (Spring Tool Suite) is used for this framework.
+No need of external server.
+Each project has its own internal sever which are configurable.
+@RestController ,@Service ,@Controller ,@Repository are all used to make them to store in the spring container.
+@Autowire is used to map the bean and classes which are stored in the spring container using various annotations.
