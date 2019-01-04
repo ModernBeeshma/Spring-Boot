@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Maven test
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: saskuma
+Implementation-Vendor-Id: com.first.test
+Build-Jdk: 1.8.0_60
+Implementation-URL: http://projects.spring.io/spring-boot/Test/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
