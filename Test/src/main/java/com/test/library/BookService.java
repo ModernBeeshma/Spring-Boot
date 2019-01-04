@@ -19,7 +19,7 @@ public class BookService {
 	}
 	public Books getBook(String id)
 	{
-		return books.stream().filter(b->b.getId().equals(id)).findFirst().get();
+		return books.stream().filter(b->b.getId().equals(id)).findFirst().get();  //Kind of lambda expression.
 	}
 	public void addBook(Books book) {
 		books.add(book);
